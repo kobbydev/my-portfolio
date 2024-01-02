@@ -1,169 +1,214 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <meta name="description" content="Portfolio Template for Developer" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="icon" href="./assets/sticker.webp" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <meta name="description" content="Portfolio Template for Developer"/>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="icon" href="./assets/sticker.webp"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
     <link
-      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700&display=swap"
-      rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700&display=swap"
+            rel="stylesheet"
     />
     <script src="index.js" defer></script>
     <title>Kwabena Agyapong</title>
-  </head>
-  <body>
-    <header>
-      <nav class="navbar">
+</head>
+<body>
+<header>
+    <nav class="navbar">
         <div class="lg-screen-nav">
-          <div class="nav-logo">
-            <figure class="nav-image">
-              <img src="./assets/sticker.webp" alt="" />
-            </figure>
-            <p class="my-name">Kwabena Agyapong</p>
-          </div>
-          <ul class="menu-links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="" id="contact">Contact Me</a></li>
-          </ul>
-          <img src="./assets/hamburger.png" alt="menu icon" id="menu-icon" />
+            <div class="nav-logo">
+                <figure class="nav-image">
+                    <img src="./assets/sticker.webp" alt=""/>
+                </figure>
+                <p class="my-name">Kwabena Agyapong</p>
+            </div>
+            <ul class="menu-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+            <img src="./assets/hamburger.png" alt="menu icon" id="menu-icon"/>
         </div>
         <div class="sm-screen-nav">
-          <div class="sm-top-nav">
-            <div class="nav-logo">
-              <figure class="nav-image">
-                <img src="./assets/sticker.webp" alt="" />
-              </figure>
-              <p class="my-name">Kwabena Agyapong</p>
+            <div class="sm-top-nav">
+                <div class="nav-logo">
+                    <figure class="nav-image">
+                        <img src="./assets/sticker.webp" alt=""/>
+                    </figure>
+                    <p class="my-name">Kwabena Agyapong</p>
+                </div>
+                <img
+                        src="./assets/close.png"
+                        alt="menu close icon"
+                        id="close-icon"
+                />
             </div>
-            <img
-              src="./assets/close.png"
-              alt="menu close icon"
-              id="close-icon"
-            />
-          </div>
-          <hr />
-          <ul class="menu-links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="" id="contact">Contact Me</a></li>
-          </ul>
+            <hr/>
+            <ul class="menu-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="" id="contact">Contact Me</a></li>
+            </ul>
         </div>
-      </nav>
-      <section class="hero">
+    </nav>
+    <section class="hero">
         <span class="hi-emoji">👋🏾</span>
         <h1>Hi, I'm Kwabena Agyapong</h1>
         <p>
-          A Frontend focused Web Developer building the Frontend of Websites and
-          Web Applications that leads to the success of the overall product
+            A Frontend focused Web Developer building the Frontend of Websites and
+            Web Applications that leads to the success of the overall product
         </p>
         <div class="socials">
-          <a href="https://github.com/kobbydev" target="_blank">
-            <img src="./assets/github.svg" alt=" github profile" />
-          </a>
-          <a
-            href="https://www.linkedin.com/in/kwabena-agyapong-antwi-bb6176213"
-            target="_blank"
-          >
-            <img src="./assets/linkedin.svg" alt="linkedin profile" />
-          </a>
-          <a href="https://twitter.com/AntwiAgyapong1" target="_blank">
-            <img src="./assets/twitter.svg" alt="twitter profile" />
-          </a>
+            <a href="https://github.com/kobbydev" target="_blank">
+                <img src="./assets/github.svg" alt=" github profile"/>
+            </a>
+            <a
+                    href="https://www.linkedin.com/in/kwabena-agyapong-antwi-bb6176213"
+                    target="_blank"
+            >
+                <img src="./assets/linkedin.svg" alt="linkedin profile"/>
+            </a>
+            <a href="https://twitter.com/AntwiAgyapong1" target="_blank">
+                <img src="./assets/twitter.svg" alt="twitter profile"/>
+            </a>
         </div>
         <button class="btn-primary">Projects</button>
         <div class="scroll-animation"></div>
-      </section>
-    </header>
-    <main>
-      <section class="about-me" id="about">
+    </section>
+</header>
+<main>
+    <section class="about-me">
         <div class="section-header">
-          <h1>About Me</h1>
-          <hr />
+            <h1 id="about">About Me</h1>
+            <hr/>
         </div>
         <p>
-          I am a Frontend Developer based in Ghana 🇬🇭. I like to build solid
-          frontend products with great user interfaces and user experiences.
-          Sometimes, I build backends. Check out some of my work in the
-          <strong>Projects</strong> section.
+            I am a Frontend Developer based in Ghana 🇬🇭. I like to build solid
+            frontend products with great user interfaces and user experiences.
+            Sometimes, I build backends. Check out some of my work in the
+            <strong>Projects</strong> section.
         </p>
-        <br />
+        <br/>
         <p>
-          I'm open to Job opportunities where I can contribute, learn and grow.
-          If you have a good opportunity that matches my skills and experience
-          then don't hesitate to <strong>contact me</strong>.
+            I'm open to Job opportunities where I can contribute, learn and grow.
+            If you have a good opportunity that matches my skills and experience
+            then don't hesitate to <strong>contact me</strong>.
         </p>
-        <button class="btn-primary" id="contact">Contact Me</button>
+        <button class="btn-primary">Contact Me</button>
 
         <article class="skills">
-          <h2>My Skills</h2>
-          <div class="using-now">
-            <h3>USING NOW:</h3>
-            <div class="skills-grid">
-              <div class="grid-item">
-                <img src="./assets/html.png" alt="html icon" />
-              </div>
-              <div class="grid-item">
-                <img src="./assets/css.png" alt="css icon" />
-              </div>
-              <div class="grid-item">
-                <img
-                  src="./assets/sass_original_logo_icon_146350.png"
-                  alt="sass icon"
-                />
-              </div>
-              <div class="grid-item">
-                <img
-                  src="./assets/react_original_logo_icon_146374.png"
-                  alt="react icon"
-                />
-              </div>
-              <div class="grid-item">
-                <img src="./assets/vuejs.png" alt="vue js icon" />
-              </div>
-              <div class="grid-item">
-                <img
-                  src="./assets/javascript_original_logo_icon_146455.png"
-                  alt="javascript icon"
-                />
-              </div>
-              <div class="grid-item">
-                <img src="./assets/typescript.png" alt="typescript icon" />
-              </div>
+            <h2>My Skills</h2>
+            <div class="using-now">
+                <h3>USING NOW:</h3>
+                <div class="skills-grid">
+                    <div class="grid-item">
+                        <img src="./assets/html.png" alt="html icon"/>
+                    </div>
+                    <div class="grid-item">
+                        <img src="./assets/css.png" alt="css icon"/>
+                    </div>
+                    <div class="grid-item">
+                        <img
+                                src="./assets/sass_original_logo_icon_146350.png"
+                                alt="sass icon"
+                        />
+                    </div>
+                    <div class="grid-item">
+                        <img
+                                src="./assets/react_original_logo_icon_146374.png"
+                                alt="react icon"
+                        />
+                    </div>
+                    <div class="grid-item">
+                        <img src="./assets/vuejs.png" alt="vue js icon"/>
+                    </div>
+                    <div class="grid-item">
+                        <img
+                                src="./assets/javascript_original_logo_icon_146455.png"
+                                alt="javascript icon"
+                        />
+                    </div>
+                    <div class="grid-item">
+                        <img src="./assets/typescript.png" alt="typescript icon"/>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="using-now">
-            <h3>LEARNING:</h3>
-            <div class="skills-grid">
-              <div class="grid-item">
-                <img src="./assets/python.png" alt="python icon" />
-              </div>
-              <div class="grid-item">
-                <img src="./assets/french.webp" alt="france icon" />
-                <p style="text-align: center; font-size: 12px">FRENCH</p>
-              </div>
+            <div class="using-now">
+                <h3>LEARNING:</h3>
+                <div class="skills-grid">
+                    <div class="grid-item">
+                        <img src="./assets/python.png" alt="python icon"/>
+                    </div>
+                    <div class="grid-item">
+                        <img src="./assets/french.webp" alt="france icon"/>
+                        <p style="text-align: center; font-size: 12px">FRENCH</p>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="using-now">
-            <h3>USE ONCE IN A WHILE:</h3>
-            <div class="skills-grid">
-              <div class="grid-item">
-                <img src="./assets/nodejs.png" alt="node js icon" />
-              </div>
-              <div class="grid-item">
-                <img src="./assets/expressjs.png" alt="express js icon" />
-              </div>
+            <div class="using-now">
+                <h3>USE ONCE IN A WHILE:</h3>
+                <div class="skills-grid">
+                    <div class="grid-item">
+                        <img src="./assets/nodejs.png" alt="node js icon"/>
+                    </div>
+                    <div class="grid-item">
+                        <img src="./assets/expressjs.png" alt="express js icon"/>
+                    </div>
+                </div>
             </div>
-          </div>
         </article>
-      </section>
-    </main>
-  </body>
+    </section>
+    <section class="projects" id="projects" style="margin-top: 200px">
+        <div class="section-header">
+            <h1>Projects</h1>
+            <hr/>
+        </div>
+        <div style="max-width: 344px; margin: 0 auto; margin-bottom: 100px;">
+            <div class="project-tabs">
+                <div class="project-tab active-project" id="team-projects">
+                    <p>Projects</p>
+                </div>
+                <div class="project-tab" id="side-projects">
+                    <p>Side Projects</p>
+                </div>
+            </div>
+        </div>
+        <div class="team-project-projects">
+            <div class="single-project">
+                <div class="project-infooo">
+                    <div class="border">
+                        <img src="./assets/hrms.webp" alt="">
+                    </div>
+                    <p>HRMS By Enyata</p>
+                </div>
+                <p class="project-desc">Software to manage Human Resource in a company from Hiring, to Assessments, to
+                    Employee management.
+                </p>
+            </div>
+        </div>
+        <div class="single-project-projects">
+            <div class="single-project">
+                <div class="project-infooo">
+                    <div class="border">
+                        <img src="./assets/foodl-img.png" alt="">
+                    </div>
+                    <p>Foodl</p>
+                </div>
+                <p class="project-desc">Software to manage Human Resource in a company from Hiring, to Assessments, to
+                    Employee management.
+                </p>
+            </div>
+        </div>
+    </section>
+</main>
+<footer>
+    <p>copyright 2023</p>
+</footer>
+</body>
 </html>
